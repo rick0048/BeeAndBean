@@ -1,0 +1,107 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 900;
+    top: 0;
+    transition: top 0.3s;
+}
+
+.navbar-nav li {
+    padding-right: 2rem;
+}
+
+.brandName {
+    font-size: 15px;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.companyTitle {
+    position: absolute;
+}
+
+section {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+p {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.parallax1 {
+    background: url(../Pictures/IMG_0095.JPG) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 115vh;
+    width: 100%;
+    opacity: 0.65;
+}
+
+.parallax2 {
+    background: url(../Pictures/IMG_0101.JPG) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 105vh;
+    width: 100%;
+    opacity: 0.65;
+}
+
+.parallax3 {
+    background: url(../Pictures/IMG_0105.JPG) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 105vh;
+    width: 100%;
+    opacity: 0.65;
+}
+
+.caption {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 900;
+}
+
+a:link {
+    color: #808080;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #808080;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
