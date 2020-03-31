@@ -35,7 +35,7 @@ p {
 /********************************************** Parallax Pictures **********************************************/
 
 .parallax1 {
-    background: url(./Pictures/IMG_0095.JPG) no-repeat center;
+    background: url(../Pictures/IMG_0095.JPG) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 115vh;
@@ -44,7 +44,7 @@ p {
 }
 
 .parallax2 {
-    background: url(./Pictures/IMG_0101.JPG) no-repeat center;
+    background: url(../Pictures/IMG_0101.JPG) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 105vh;
@@ -53,7 +53,7 @@ p {
 }
 
 .parallax3 {
-    background: url(./Pictures/IMG_0105.JPG) no-repeat center;
+    background: url(../Pictures/IMG_0105.JPG) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 105vh;
