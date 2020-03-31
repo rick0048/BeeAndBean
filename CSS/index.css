@@ -1,3 +1,11 @@
+/********************************************** Page CSS **********************************************/
+
+body {
+    background-color: #f7f7f7;
+}
+
+/********************************************** Nav Bar ***********************************************/
+
 .nav {
     position: fixed;
     width: 100%;
@@ -15,20 +23,7 @@
     font-size: 15px;
 }
 
-body {
-    background-color: #f7f7f7;
-}
-
-.companyTitle {
-    position: absolute;
-}
-
-section {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-}
+/********************************************** Text CSS ***********************************************/
 
 p {
     max-width: 960px;
@@ -36,6 +31,8 @@ p {
     font-size: 24px;
     padding: 25px;
 }
+
+/********************************************** Parallax Pictures **********************************************/
 
 .parallax1 {
     background: url(../Pictures/IMG_0095.JPG) no-repeat center;
@@ -74,6 +71,8 @@ p {
     z-index: 900;
 }
 
+/********************************************** Link CSS **********************************************/
+
 a:link {
     color: #808080;
     text-decoration: none;
@@ -86,6 +85,13 @@ a:visited {
 a:hover {
     color: #000000;
 }
+
+
+
+
+
+
+/********************************************** Media Query **********************************************/
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
